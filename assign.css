@@ -1,29 +1,40 @@
+*{
+    box-sizing:border-box;
+}    
+div {
+    margin-left:20px;
+    /*margin-right: 40px;*/
+}
 .cat {
-    background-color: gray;
+    background-color: gainsboro;
     border-color: black;
     border: 3px solid black;
     margin: 10px;
     float: left;
     width: 30%;
-    height: 160px;
+    height: 200px;
 
 }
 
 .inDiv {
     margin-top: 30px;
-
+    padding:15px;
 }
 
 #hchick {
     background-color: pink;
+    padding:0px 20px 0px 20px;
 }
 
 #hmut {
-    background-color: red;
+    background-color: indianred;
+    color:white;
+    padding:0px 20px 0px 20px;
 }
 
 #hfish {
-    background-color: yellow;
+    background-color: khaki;
+    padding:0px 20px 0px 20px;
 }
 
 
@@ -31,8 +42,8 @@
 
     margin-top: 0px;
     float: right;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 h2 {
@@ -68,6 +79,11 @@ h2 {
 
         width: 45%;
     }
+    .cat {
+       
+        height: 180px;
+    
+    }
 }
 
 @media(max-width:767px) {
@@ -81,5 +97,10 @@ h2 {
 
     #fish {
         width: 100%;
+    }
+    .cat {
+       
+        height: 140Px;
+    
     }
 }
